@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*-coding: utf-8 -*-
 from setuptools import setup, find_packages
 import re, ast
 
@@ -13,6 +13,7 @@ with open('erpnext/__init__.py', 'rb') as f:
 		f.read().decode('utf-8')).group(1)))
 
 setup(
+	//setup method
 	name='erpnext',
 	version=version,
 	description='Open Source ERP',
